@@ -1,0 +1,29 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <RootNamespace>ApiSetTool</RootNamespace>
+    <Version>1.0.0-alpha1</Version>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Using Include="ApiSetTool" />
+    <Using Include="ApiSetTool.Json" />
+    <Using Include="ApiSetTool.PortableExecutable" />
+    <Using Include="System.Buffers.Binary" />
+    <Using Include="System.CommandLine" />
+    <Using Include="System.Diagnostics.CodeAnalysis" />
+    <Using Include="System.Text" />
+    <Using Include="System.Text.Json" />
+    <Using Include="System.Text.Json.Serialization" />
+    <Using Include="System.Text.Json.Serialization.Metadata" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="System.CommandLine" Version="2.0.0-beta4.22272.1" />
+  </ItemGroup>
+
+</Project>
